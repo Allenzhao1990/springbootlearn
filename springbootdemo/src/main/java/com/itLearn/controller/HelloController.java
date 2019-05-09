@@ -25,4 +25,10 @@ public class HelloController {
     }
 
 
+    @RequestMapping("/hello3")
+    @ResponseBody
+    public String hello3(){
+        return "测试Git Commit Type";
+    }
+
 }
