@@ -18,7 +18,11 @@ public class HelloController {
 
     }
 
-
+    @RequestMapping("/hello2")
+    @ResponseBody
+    public String hello2(){
+        return "测试Git修改文件.";
+    }
 
 
 }
