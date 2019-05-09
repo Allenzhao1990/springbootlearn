@@ -6,6 +6,6 @@
         select * from person
     </select>
     <insert id="save">
-
+      INSERT  INTO Person(name,age,addr) VALUES (#{name},#{age},#{addr})
     </insert>
 </mapper>
